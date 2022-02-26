@@ -10,8 +10,6 @@ helm uninstall k10 -n kasten-io
 kubectl delete ns yong-postgresql
 kubectl delete ns kasten-io
 
-kubectl delete secret k10-s3-secret -n kasten-io
-
 # echo '-------Deleting disks'
 #for i in $(gcloud compute disks list --format="value(name)" --filter="$MY_PREFIX-$MY_CLUSTER");do echo $i;gcloud compute disks delete $i --zone=$MY_ZONE -q;done
 
