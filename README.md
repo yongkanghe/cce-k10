@@ -5,7 +5,7 @@ I just want to build a CCE Cluster (Huawei Cloud Container Engine Kubernetes Clu
 
 It is challenging to create a CCE cluster from Huawei Cloud if you are not familiar to it. After the CCE Cluster is up running, we still need to install Kasten, create a sample DB, create policies etc.. The whole process is not that simple.
 
-![image](https://pbs.twimg.com/media/FHLSGL8VEAAUrZQ?format=png&name=900x900)
+![image](https://pbs.twimg.com/media/FMhpLEqVcAMmzyl?format=jpg&name=900x900)
 
 This script based automation allows you to build a ready-to-use Kasten K10 demo environment running on CCE in about 3 minutes. If you don't have a CCE Cluster, you can watch the Youtube video and follow the guide to build a CCE cluster on Huawei Cloud. Once the CCE Cluster is up running, you can proceed to the next steps. 
 
