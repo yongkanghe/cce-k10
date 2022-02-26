@@ -1,0 +1,8 @@
+apiVersion: snapshot.storage.k8s.io/v1beta1
+deletionPolicy: Delete
+driver: disk.csi.everest.io
+kind: VolumeSnapshotClass
+metadata:
+  annotations:
+    k10.kasten.io/is-snapshot-class: "true"
+  name: csi-disk-snapclass
