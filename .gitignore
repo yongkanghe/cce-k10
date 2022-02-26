@@ -1,4 +1,6 @@
 *token*
 *access*
 *kubeconfig*
-
+*backupname*
+*exportname*
+*csi-disk.backup*
