@@ -16,8 +16,8 @@ This script based automation allows you to build a ready-to-use Kasten K10 demo 
 
 # Here're the prerequisities. 
 
-1. Go to your terminal where you can run kubectl
-2. Verify if you can access the cluster via kubectl
+1. Install kubectl and obsutil if not installed
+2. Verify if you can access the cluster from the terminal
 ````
 kubectl get nodes
 ````
@@ -25,7 +25,7 @@ kubectl get nodes
 ````
 git clone https://github.com/yongkanghe/cce-k10.git
 ````
-4. Install the tools and set Alibaba Cloud Access Credentials
+4. Set Huawei Cloud Access Credentials
 ````
 cd cce-k10;./hwcprep.sh
 ````
