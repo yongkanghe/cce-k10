@@ -16,7 +16,7 @@ spec:
       backupParameters:
         profile:
           namespace: kasten-io
-          name: mygcs1
+          name: $MY_OBJECT_STORAGE_PROFILE
     - action: export
       exportParameters:
         frequency: "@hourly"
