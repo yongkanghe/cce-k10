@@ -5,7 +5,7 @@ cat <<EOF | kubectl apply -f -
 apiVersion: config.kio.kasten.io/v1alpha1
 kind: Policy
 metadata:
-  name: ack2cce-jenkins-backup
+  name: cce2ack-jenkins-backup
   namespace: kasten-io
 spec:
   comment: ""
@@ -61,6 +61,6 @@ metadata:
 spec:
   subject:
     kind: Policy
-    name: ack2cce-jenkins-backup
+    name: cce2ack-jenkins-backup
     namespace: kasten-io
 EOF
