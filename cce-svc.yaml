@@ -9,7 +9,7 @@ metadata:
     kubernetes.io/elb.class: union
     kubernetes.io/elb.subnet-id: 1dcccb06-839c-42fe-8b15-4f74993a0558
     kubernetes.io/elb.autocreate: >-
-      {"type":"public","bandwidth_name":"cce-bandwidth-1645853592278","bandwidth_chargemode":"traffic","bandwidth_size":5,"bandwidth_sharetype":"PER","eip_type":"5_bgp"}
+      {"type":"public","bandwidth_name":"cce-bandwidth-1645853592278","bandwidth_chargemode":"traffic","bandwidth_size":100,"bandwidth_sharetype":"PER","eip_type":"5_bgp"}
     kubernetes.io/elb.lb-algorithm: ROUND_ROBIN
     kubernetes.io/elb.health-check-flag: 'on'
     kubernetes.io/elb.health-check-option: '{"protocol":"TCP","delay":"5","timeout":"10","max_retries":"3"}'
