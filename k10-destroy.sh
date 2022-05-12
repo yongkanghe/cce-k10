@@ -19,6 +19,7 @@ kubectl delete ns kasten-io
 echo '-------Deleting the bucket'
 # myproject=$(gcloud config get-value core/project)
 obsutil rm obs://$MY_PREFIX-$MY_BUCKET -r -f
+obsutil rm obs://$(cat k10_migration_bucketname) -r -f
 
 echo '-------Deleting kubeconfig for this cluster'
 #kubectl config delete-context $(kubectl config get-contexts | grep $MY_PREFIX-$MY_CLUSTER | awk '{print $2}')
